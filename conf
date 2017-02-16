@@ -1,4 +1,3 @@
-
 #/bin/bash
 clear
 if [ $(id -u) -eq 0 ]
