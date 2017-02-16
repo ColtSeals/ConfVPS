@@ -1,3 +1,4 @@
+
 #/bin/bash
 clear
 if [ $(id -u) -eq 0 ]
@@ -89,124 +90,6 @@ d1n212ccp6ldpw.cloudfront.net
 claro-gestoronline.claro.com.br
 forms.claro.com.br
 golpf.claro.com.br
-.rdio.com
-sdp.vivo.com.br
-.itunes.apple.com/br/app/meu-tim/id668591218?mt=8/
-.seuouvidovaleumchip.com.br.wapgprs.oi.com.br
-.wap.tim.com.br
-.oinovosom.com.br
-.mundooi.oi.com.br
-.rdio.com/www.rdio.com
-.discador3g.oi.com.br
-.interatividade.vivo.ddivulga.com
-.gprs.oi.com.br
-.planos.tim.com.br
-.timbeta.com.br
-.coreiadonorte.claro.com.br
-.prx.fbiz.com.br
-m.magazineluiza.com.br
-.netdna.bootstrapcdn.com
-.static.mlstatic.com
-.google-analytics.com
-.resources.mlstatic.com
-.mercadolibre.com.ar
-.ofertas.mercadolivre.com.br
-.contato.mercadolivre.com.br
-.loja.mercadolivre.com.br
-.institucional.mercadolivre.com.br
-.investor.mercadolibre.com
-.tendencias.mercadolivre.com.br
-.publicidade.mercadolivre.com.br
-.mercadoshops.com.br
-.envios.mercadolivre.com.br
-.developers.mercadolibre.com
-.lista.mercadolivre.com.br
-.planalto.gov.br
-.bcb.gov.br
-.febraban-star.org.br
-.netshoes.com.br
-static.chaordicsystems.com
-.netshoes.d1.sc.omtrdc.net
-.americanas.com.br
-.clube.claro.com.br
-.clarocombo.claro.com.br
-.rbl.claro.com.br 
-.logisticasp.claro.com.br
-.clarohdtv.claro.com.br
-.comunidadeclarotv.claro.com.br
-.clarofixo.claro.com.br
-.clarofixo.claro.com.br
-.contaonlinepf2.claro.com.br
-.clarotv.claro.com.br
-.contaonline2.claro.com.br
-www3.claro.com.br
-.m-clarofixo.claro.com.br
-.claro-gestoronline.claro.com.br
-.claro.com.br<br>
-.empresas.claro.com.br
-.comunidadeclarohdtv.claro.com.br
-.contaonline.claro.com.br 
-.static.claro.com.sv 
-.static.claro.com.sv
-clarofixo.claro.com.co
-.recargawap.claro.com.br
-.clarojogadamusical.com.br
-.minhaclaro.claro.com.br
-.speedtest.net
-.portalvendasclaro.com.br
-.empresas.claro.com.br
-.rs.bookclaro.com.br
-.extranet.claro.com.br
-.netdna.bootstrapcdn.com
-.smart.tigo.com.co.web.facebook.com
-.connectivitycheck.gstatic.com
-.clarofixo.claro.com.co
-.recargawap.claro.com.br
-.clarojogadamusical.com.br
-.minhaclaro.claro.com.br
-.www.speedtest.net
-z.claro.com.br
-.portalvendasclaro.com.br
-.empresas.claro.com.br
-.rs.bookclaro.com.br
-.extranet.claro.com.br
-.netdna.bootstrapcdn.com
-.smart.tigo.com.co.web.facebook.com
-.connectivitycheck.gstatic.com
-.clarotvcombo.com.br
-.mc.claro.com.br
-.applications.claro.com.co
-.netcombo.com.br
-.netdna.bootstrapcdn.com
-.offerwall.com.br
-.connect.facebook.net
-.contaonline2.claro.com.br
-.appcorp.claro.com.gt
-.frontend.claro.com.br
-.contaonlinepf.claro.com.br
-.forms.claro.com.br
-.claroclubetv.claro.com.br
-.clarofixo.claro.com.co
-.vivo.com.br
-.portalsva2.vivo.com.br
-.sdp.vivo.com.br
-.navegue.vivo.ddivulga.com
-.interatividade.vivo.ddivulga.com
-.pos.tim.com.br
-.wap.tim.com.br
-.timdisneyvideos.com.br
-.ec2-52-22-60-103.compute-1.amazonaws.com
-.d1n212ccp6ldpw.cloudfront.net
-.discador3g.oi.com.br
-wap.oi.com.br/gratis
-.oi.com.br
-.rdio.com/rewrite.pandora.com
-.oimusica.com.br
-.oinovosom.com.br
-.img.m4u.com.br
-.tim.anti-theft.kaspersky.com
-.navegue.vivo.ddivulga.com
-.portalsva2.vivo.com.br
 logtiscap.claro.com.br
 www.recargafacil.claro.com.br
 .vivo.com.br
@@ -246,7 +129,7 @@ os hosts ficam no arquivo /etc/payloads\033[0m"
 payloads
 service squid restart 1> /dev/null 2> /dev/null
 
-echo -e "\033[01;31mQuase tudo pronto  agora execute o segundo SCRIPT !!\033[0m"
+echo -e "\033[01;31mTudo terminado crie um usuario e teste !!\033[0m"
 exit 0
 fi
 
@@ -280,7 +163,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mQuase tudo pronto  agora execute o segundo SCRIPT !! \033[0m"
+echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
 exit 0
 fi
 
@@ -314,7 +197,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mQuase tudo pronto  agora execute o segundo SCRIPT !! \033[0m"
+echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
 exit
 fi
 
@@ -384,7 +267,7 @@ addhost
 
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mQuase tudo pronto  agora execute o segundo SCRIPT !! \033[0m"
+echo -e "\033[01;31mTudo terminado crie um usuario e teste !! \033[0m"
 exit
 fi
 
@@ -420,4 +303,4 @@ service squid3 restart > /dev/null 2> /dev/null
 addhost
 echo -e "\033[1;37mPara adicionar novos hosts ao squid execute o comando addhost
 os hosts ficam no arquivo /etc/payloads\033[0m"
-echo -e "\033[01;31mQuase tudo pronto  agora execute o segundo SCRIPT !! \033[0m"
+echo -e "\033[01;31mQuase tudo pronto execute o segundo SCRIPT !! \033[0m"
