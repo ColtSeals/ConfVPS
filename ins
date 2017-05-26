@@ -1,4 +1,4 @@
-'#!/bin/bash
+#/bin/bash
 clear
 cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/	//' > /etc/so 
 if [ -f /etc/lsb-release ]
