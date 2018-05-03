@@ -17,11 +17,15 @@ else
 	exit
 	fi
 fi
-
+#identificacao automatica do ip
+AIP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
+if [[ "$AIP" = "" ]]; then
+		AIP=$(wget -4qO- "http://whatismyip.akamai.com/")
+		
 cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/	//' > /etc/so 
 echo -e "\033[1;31mPara a instalação ser correta é preciso o ip.
 Digite o ip !\033[0m"
-read -p ": " ip
+read -p ": " -e -i $AIP ip
 clear
 echo -e "\033[1;31m•••••> \033[01;37mScript Edited ••ColtSeals TecnologY•• \033[0m"
 echo -e "\033[1;32m•••••> A Internet aproxima quem está longe e afasta quem está perto!"
